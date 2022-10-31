@@ -12,27 +12,27 @@ public class FirstNewsScreen2 {
 
     @AndroidFindBy(id="coachView")
     @iOSXCUITFindBy(id="test")
-    public AndroidElement smartView;
+    public MobileElement smartView;
 
     @AndroidFindBy(xpath="(//android.view.View)[4]")
     @iOSXCUITFindBy(id="test")
-    public AndroidElement newsAgencyName;
+    public MobileElement newsAgencyName;
 
     @AndroidFindBy(accessibility ="Navigate up")
     @iOSXCUITFindBy(id="test")
-    public AndroidElement backButton;
+    public MobileElement backButton;
 
     @AndroidFindBy(xpath="//android.view.View[@content-desc='#no-js-nav']/android.widget.Image")
     @iOSXCUITFindBy(id="test")
-    public AndroidElement bottomOfScreen;
+    public MobileElement bottomOfScreen;
 
     @AndroidFindBy(xpath="//*[@text='COMMENTS']")
     @iOSXCUITFindBy(id="test")
-    public AndroidElement comments;
+    public MobileElement comments;
 
     @AndroidFindBy(xpath="//*[@text='ARTICLE']")
     @iOSXCUITFindBy(id="test")
-    public AndroidElement article;
+    public MobileElement article;
 
     Base118 bs118;
 
