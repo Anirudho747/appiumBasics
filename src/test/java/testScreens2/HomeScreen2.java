@@ -12,23 +12,23 @@ public class HomeScreen2 {
 
     @AndroidFindBy(id="android:id/button1")
     @iOSXCUITFindBy(id="test")
-    public AndroidElement okButton;
+    public MobileElement okButton;
 
     @AndroidFindBy(xpath="//*[@text='OK']")
     @iOSXCUITFindBy(id="test")
-    public AndroidElement okButton2;
+    public MobileElement okButton2;
 
     @AndroidFindBy(accessibility ="Open navigation drawer")
     @iOSXCUITFindBy(id="test")
-    public AndroidElement navigationDrawer;
+    public MobileElement navigationDrawer;
 
     @AndroidFindBy(xpath="(//*[@text='Popular Today'])[1]")
     @iOSXCUITFindBy(id="test")
-    public AndroidElement popularToday;
+    public MobileElement popularToday;
 
     @AndroidFindBy(xpath="(//*[@content-desc=\"Article Title\"])[1]")
     @iOSXCUITFindBy(id="test")
-    public AndroidElement firstArticle;
+    public MobileElement firstArticle;
 
     Base118 bs118;
 
